@@ -3,7 +3,7 @@
     <div id="navbar">
       <nav>
         <router-link :to="{ name: 'ArticleView' }">영화</router-link> |
-        <router-link :to="{ name: 'MoviesView' }">Poster Quiz</router-link> |
+        <router-link :to="{ name: 'QuizView' }">Poster Quiz</router-link> |
         <router-link :to="{ name: 'RecommendView' }">추천 영화</router-link> |
         <router-link :to="{ name: 'TicketView' }">오리지널 티켓 뽑기</router-link>
       </nav>

@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import ArticleView from '@/views/ArticleView'
-import MoviesView from '@/views/MoviesView'
 import RecommendView from '@/views/RecommendView'
 import TicketView from '@/views/TicketView'
 import CreateView from '@/views/CreateView'
 import DetailView from '@/views/DetailView'
 import SignUpView from '@/views/SignUpView'
 import LogInView from '@/views/LogInView'
+import QuizView from '@/views/QuizView'
 
 
 Vue.use(VueRouter)
@@ -18,17 +18,16 @@ const routes = [
     name: 'ArticleView',
     component: ArticleView
   },
-
-  {
-    path: '/movies',
-    name: 'MoviesView',
-    component: MoviesView
-  },
  
   {
     path: '/recommend',
     name: 'RecommendView',
     component: RecommendView
+  },
+  {
+    path: '/quiz',
+    name: 'QuizView',
+    component: QuizView
   },
 
   {

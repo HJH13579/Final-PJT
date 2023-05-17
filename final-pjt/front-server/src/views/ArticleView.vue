@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h1>Article Page</h1>
-    <router-link :to="{ name: 'CreateView' }">[CREATE]</router-link>
+    <h1>퀴즈를 풀고 나만의 티켓을 만들어보세요!</h1>
+    <router-link :to="{ name: 'QuizView' }">[Let's QUIZ!]</router-link>
     <ArticleList />
     <hr>
   </div>

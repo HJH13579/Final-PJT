@@ -1,13 +1,13 @@
 <template>
   <div>
-    <h1>Movies Page</h1>
-    <hr>
+    <h1>POSTER QUIZ</h1>
   </div>
 </template>
 
 <script>
+export default {
 
-
+}
 </script>
 
 <style>
