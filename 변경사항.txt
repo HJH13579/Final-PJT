@@ -1,0 +1,1 @@
+NowPlayingMovies의 메서드와 MovieDetailView의 템플릿, 컴퓨티드 부분에 있습니다.
